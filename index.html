@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keep Showing Up Club</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #000;
+      color: #fff;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      min-height: 100vh;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-align: center;
+    }
+
+    .logo {
+      position: absolute;
+      top: 30px;
+      left: 40px;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+    }
+
+    .logo span {
+      color: #c0392b; /* red CLUB */
+      font-size: 0.7rem;
+      margin-left: 6px;
+      letter-spacing: 2px;
+    }
+
+    .tagline {
+      color: #e8dcc8;
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .headline {
+      font-size: 3.5rem;
+      font-weight: 800;
+      letter-spacing: 3px;
+      line-height: 1.2;
+    }
+
+    .arrow {
+      margin-top: 30px;
+      font-size: 1.5rem;
+      opacity: 0.6;
+    }
+
+    /* SIGNUP SECTION */
+    .signup-section {
+      background: #f3efe6;
+      color: #000;
+      padding: 60px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .signup-box {
+      background: #000;
+      padding: 30px;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .signup-box h3 {
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+
+    .signup-box input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    .signup-box button {
+      width: 100%;
+      padding: 12px;
+      background: #fff;
+      border: none;
+      font-weight: bold;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+
+    .signup-box small {
+      display: block;
+      margin-top: 10px;
+      color: #bbb;
+      font-size: 0.8rem;
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 30px;
+      font-size: 0.8rem;
+      color: #666;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .socials span {
+      margin-right: 10px;
+      opacity: 0.6;
+    }
+
+    @media (max-width: 768px) {
+      .headline {
+        font-size: 2.5rem;
+      }
+
+      .logo {
+        left: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="logo">
+      keepshowingup.<span>CLUB</span>
+    </div>
+
+    <div class="tagline">keep showing up.</div>
+
+    <div class="headline">
+      WEBSITE<br>
+      COMING<br>
+      SOON
+    </div>
+
+    <div class="arrow">⌄</div>
+  </section>
+
+  <!-- EMAIL SIGNUP (visual only) -->
+  <section class="signup-section">
+    <div class="signup-box">
+      <h3>Email Signup</h3>
+      <input type="email" placeholder="Enter your email here *">
+      <button>SUBSCRIBE</button>
+      <small>Yes, subscribe me to your newsletter.</small>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="socials">
+      <span>◯</span>
+      <span>◯</span>
+      <span>◯</span>
+    </div>
+    <div>© 2026 by Keep Showing Up Club</div>
+  </footer>
+
+</body>
+</html>
